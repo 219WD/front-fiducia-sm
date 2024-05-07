@@ -1,0 +1,30 @@
+
+.categories__create-form {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: .7rem;
+    padding: 10px;
+    border-radius: 20px;
+    height: 100%;
+  }
+  
+  .categories__create-form {
+    grid-column: span 1;
+  }
+
+  .contenedor-products{
+    overflow: hidden;
+}
+.contenedor-products::before {
+    content: '';
+    position: absolute;
+    width: 2000px;
+    height: 1000px;
+    border-radius: 50%;
+    background: linear-gradient(-45deg, #4481eb, #04befe);
+    top: 10%;
+    right: 48%;
+    transform: translateY(-50%);
+    z-index: -1;
+}
+
